@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gran_logias",
+  "info": {
+    "singularName": "gran-logia",
+    "pluralName": "gran-logias",
+    "displayName": "GranLogia"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Siglas": {
+      "type": "string",
+      "required": true
+    },
+    "Fundacion": {
+      "type": "string"
+    },
+    "Patente": {
+      "type": "string"
+    },
+    "Colonia": {
+      "type": "string"
+    },
+    "Imagen": {
+      "type": "string"
+    }
+  }
+}

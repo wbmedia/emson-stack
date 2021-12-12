@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "siglas",
+  "info": {
+    "singularName": "sigla",
+    "pluralName": "siglas",
+    "displayName": "Sigla"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "logias",
+  "info": {
+    "singularName": "logia",
+    "pluralName": "logias",
+    "displayName": "Logia"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Numero": {
+      "type": "biginteger",
+      "required": true
+    },
+    "CorreoSecretario": {
+      "type": "email"
+    },
+    "sigla": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sigla.sigla"
+    },
+    "ciudad": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::ciudad.ciudad"
+    }
+  }
+}

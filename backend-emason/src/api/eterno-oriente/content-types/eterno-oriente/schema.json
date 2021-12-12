@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "eterno_orientes",
+  "info": {
+    "singularName": "eterno-oriente",
+    "pluralName": "eterno-orientes",
+    "displayName": "EternoOriente"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    },
+    "Grado": {
+      "type": "string"
+    },
+    "Logia": {
+      "type": "string"
+    }
+  }
+}
