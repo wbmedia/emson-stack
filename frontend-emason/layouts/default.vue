@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app>
     <v-navigation-drawer
       v-model="drawer"
       :mini-variant="miniVariant"
@@ -92,25 +92,97 @@
 export default {
   data () {
     return {
-      clipped: false,
+      clipped: true,
       drawer: false,
       fixed: false,
       items: [
         {
           icon: 'mdi-apps',
-          title: 'Welcome',
+          title: 'Bienvenido',
           to: '/'
         },
         {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
+          icon: 'mdi-account',
+          title: 'Perfil',
+          to: '/perfil'
+        },
+        {
+          icon: 'mdi-qrcode-scan',
+          title: 'Código QR',
+          to: '/qr'
+        },
+        {
+          icon: 'mdi-briefcase',
+          title: 'Trabajos',
+          to: '/trabajos'
+        },
+        {
+          icon: 'mdi-laptop',
+          title: 'Eterno Oriente',
+          to: '/eterno-oriente'
+        },
+        {
+          icon: 'mdi-office-building',
+          title: 'Gran Logia',
+          to: '/gran-logia'
+        },
+        {
+          icon: 'mdi-greenhouse',
+          title: 'Logias',
+          to: '/logias'
+        },
+        {},
+        {
+          icon: 'mdi-wallet-membership',
+          title: 'Miembros',
+          to: '/miembros'
+        },
+        {
+          icon: 'mdi-book-clock',
+          title: 'Asistencia',
+          to: '/asistencia'
+        },
+        {
+          icon: 'mdi-vote',
+          title: 'Votación',
+          to: '/votacion'
+        },
+        {},
+        {
+          icon: 'mdi-desk',
+          title: 'Secretaria',
+        },
+        {
+          icon: 'mdi-car-brake-low-pressure',
+          title: 'Planchas',
+          to: '/planchas'
+        },
+        {
+          icon: 'mdi-certificate',
+          title: 'Diplomas',
+          to: '/diplomas'
+        },
+        {},
+        {
+          icon: 'mdi-bookshelf',
+          title: 'Biblioteca',
+        },
+        {
+          icon: 'mdi-file-document',
+          title: 'Base de Conocimiento',
+          to: '/base-de-conocimiento'
+        },
+        {},
+        {
+          icon: 'mdi-exit-to-app',
+          title: 'Salir',
+          to: '/logout'
         }
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
+      title: 'E-M@son'
     }
   }
 }
