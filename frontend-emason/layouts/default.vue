@@ -109,7 +109,7 @@ export default {
         {
           icon: 'mdi-qrcode-scan',
           title: 'Código QR',
-          to: '/qr'
+          to: '/codigo-qr'
         },
         {
           icon: 'mdi-briefcase',
